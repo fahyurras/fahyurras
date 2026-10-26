@@ -1,0 +1,202 @@
+/* 1. Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body { background: linear-gradient(45deg, #222, #444, #888); }
+
+/* 2. Pembungkus */
+.wrapper {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* 3. Kontainer */
+#about-container,
+#info-container,
+#project-container,
+#studio-container,
+#link-container {
+  margin: 10px 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  transition: 0.3s ease;
+  animation: showItem 1.5s ease;
+}
+
+/* 4. Isi Kontainer */
+/* Kontainer Tentang */
+.profile-img-container { display: flex; justify-content: center; align-items: center; }
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  background: white;
+  border-radius: 20px;
+}
+
+.about-name,
+.info-container-title,
+.project-container-title,
+.studio-container-title,
+.link-container-title {
+  color: #f3f3f3;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-description {
+  color: #e3e3de;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#cursor { font-weight: bold; color: #0086F9; animation: 1s blink infinite; }
+
+.contact-btn {
+  background: #00c9dd;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover { background: #00C9FF; }
+
+/* Kontainer Informasi */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5px 0;
+}
+
+.info-row span:nth-of-type(1) { color: #f1f1f1; font-size: 1.25rem; font-weight: bold; }
+.info-row span:nth-of-type(2) { color: #e5e5e5; font-size: 1.25rem; font-weight: 500; }
+
+/* Kontainer Proyek */
+.coming-soon-sign {
+  color: #d4d4d4;
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Kontainer Studio */
+
+/* Kontainer Tautan */
+.link-grid { display: flex; flex-direction: column; gap: 10px; }
+
+.link-btn {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+#link-youtube:hover { background: #FF2D2D; color: white; }
+#link-tiktok:hover { background: black; color: cyan; }
+#link-instagram:hover { background: #e1306c; color: white; }
+#link-facebook:hover { background: #007AFF; color: white; }
+#link-x:hover,
+#link-threads:hover,
+#link-github:hover { background: black; color: white; }
+
+/* Batang Kredit */
+#credit-bar {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dark-toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.dark-toggle-label { color: white; font-size: 1.05rem; font-weight: 500; }
+
+.dark-toggle {
+  width: 50px;
+  height: 25px;
+  position: relative;
+  appearance: none;
+  background: white;
+  border: 1px solid #f4f4f4;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.dark-toggle:checked { background: black; border: 1px solid #222; }
+
+.dark-toggle::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: black;
+  border-radius: 50%;
+  top: 1.9px;
+  left: 1.9px;
+  transition: 0.3s ease;
+}
+
+.dark-toggle:checked::before { background: white; transform: translate(24.5px, 0); }
+
+.credit-title { color: white; font-size: 1.15rem; font-weight: bold; }
+
+/* 5. Animasi */
+@keyframes showItem { from { opacity: 0; transform: translate(0, 100px); } to { opacity: 1; transform: translate(0, 0); } }
+@keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+
+/* 6. Mode Gelap */
+body.dark-theme { background: linear-gradient(45deg, #e5e5e5, #d7d7d7, #c2c2c2); }
+
+body.dark-theme #about-container,
+body.dark-theme #info-container,
+body.dark-theme #project-container,
+body.dark-theme #studio-container,
+body.dark-theme #link-container { background: rgba(2,2,2,0.5); border: 2px solid rgba(2,2,2,0.25); }
+
+body.dark-theme .link-btn { background: black; color: white; }
+
+body.dark-theme #credit-bar { background: rgba(0,0,0,0.5); }
+
+/* 7. Responsif Layar */
+@media (max-width: 600px) {
+  .wrapper { max-width: 600px; }
+  .link-grid { display: grid; grid-template-columns: repeat(2, 1fr); }
+}
