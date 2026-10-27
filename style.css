@@ -1,14 +1,17 @@
-/* 1. Dasar */
+/* 1. Inisialisasi */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* 2. Dasar */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body { background: linear-gradient(45deg, #222, #444, #888); }
 
-/* 2. Pembungkus */
+/* 3. Pembungkus */
 .wrapper {
   width: 100%;
   min-height: 100dvh;
@@ -18,7 +21,7 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
   align-items: stretch;
 }
 
-/* 3. Kontainer */
+/* 4. Kontainer */
 #about-container,
 #info-container,
 #project-container,
@@ -38,7 +41,7 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
   animation: showItem 1.5s ease;
 }
 
-/* 4. Isi Kontainer */
+/* 5. Isi Kontainer */
 /* Kontainer Tentang */
 .profile-img-container { display: flex; justify-content: center; align-items: center; }
 
@@ -178,11 +181,11 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
 
 .credit-title { color: white; font-size: 1.15rem; font-weight: bold; }
 
-/* 5. Animasi */
+/* 6. Animasi */
 @keyframes showItem { from { opacity: 0; transform: translate(0, 100px); } to { opacity: 1; transform: translate(0, 0); } }
 @keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
 
-/* 6. Mode Gelap */
+/* 7. Mode Gelap */
 body.dark-theme { background: linear-gradient(45deg, #e5e5e5, #d7d7d7, #c2c2c2); }
 
 body.dark-theme #about-container,
@@ -195,7 +198,7 @@ body.dark-theme .link-btn { background: black; color: white; }
 
 body.dark-theme #credit-bar { background: rgba(0,0,0,0.5); }
 
-/* 7. Responsif Layar */
+/* 8. Responsif Layar */
 @media (max-width: 600px) {
   .wrapper { max-width: 600px; }
   .link-grid { display: grid; grid-template-columns: repeat(2, 1fr); }
