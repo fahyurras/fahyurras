@@ -199,7 +199,7 @@ body.dark-theme .link-btn { background: black; color: white; }
 body.dark-theme #credit-bar { background: rgba(0,0,0,0.5); }
 
 /* 8. Responsif Layar */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .wrapper { max-width: 600px; }
   .link-grid { display: grid; grid-template-columns: repeat(2, 1fr); }
 }
