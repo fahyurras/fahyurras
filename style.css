@@ -109,18 +109,14 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
 /* Kontainer Studio */
 
 /* Kontainer Tautan */
-.link-grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
-}
+.link-grid { display: grid; grid-template-columns: repeat(16, 1fr); gap: 10px; }
 
 .link-btn {
   background: white;
   color: black;
   border-radius: 10px;
   padding: 10px;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -213,4 +209,5 @@ body.dark-theme #credit-bar { background: rgba(0,0,0,0.5); }
 @media (max-width: 600px) {
   .wrapper { max-width: 600px; margin: 0 auto; }
   .link-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .link-btn { font-size: 1.1rem; }
 }
