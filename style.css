@@ -109,14 +109,18 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
 /* Kontainer Studio */
 
 /* Kontainer Tautan */
-.link-grid { display: flex; flex-direction: column; gap: 10px; }
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
 
 .link-btn {
   background: white;
   color: black;
   border-radius: 10px;
   padding: 10px;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 500;
   text-decoration: none;
   text-align: center;
@@ -140,6 +144,7 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
   justify-content: center;
   align-items: center;
   gap: 10px;
+  animation: showItem 1s ease;
 }
 
 .dark-toggle-container {
@@ -201,5 +206,5 @@ body.dark-theme #credit-bar { background: rgba(0,0,0,0.5); }
 /* 8. Responsif Layar */
 @media (max-width: 600px) {
   .wrapper { max-width: 600px; margin: 0 auto; }
-  .link-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .link-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
 }
