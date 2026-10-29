@@ -201,6 +201,12 @@ body.dark-theme #link-container { background: rgba(2,2,2,0.5); border: 2px solid
 
 body.dark-theme .link-btn { background: black; color: white; }
 
+body.dark-theme #link-tiktok:hover { background: white; }
+
+body.dark-theme #link-x:hover,
+body.dark-theme #link-threads:hover,
+body.dark-theme #link-github:hover { background: white; color: black; }
+
 body.dark-theme #credit-bar { background: rgba(0,0,0,0.5); }
 
 /* 8. Responsif Layar */
