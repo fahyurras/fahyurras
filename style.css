@@ -43,9 +43,8 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
 
 /* 5. Isi Kontainer */
 /* Kontainer Tentang */
-.profile-img-container { display: flex; justify-content: center; align-items: center; }
-
-.profile-img {
+.profile-img,
+.studio-logo-img {
   width: 110px;
   height: 110px;
   overflow: hidden;
@@ -64,7 +63,8 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
   text-align: center;
 }
 
-.about-description {
+.about-description,
+.studio-description {
   color: #e3e3de;
   font-size: 1.2rem;
   font-weight: 500;
@@ -107,6 +107,16 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
 }
 
 /* Kontainer Studio */
+.studio-item-container { display: flex; flex-direction: column; gap: 5px; }
+
+.studio-name {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#studio-site-link-btn { text-align: center; }
 
 /* Kontainer Tautan */
 .link-grid { display: grid; grid-template-columns: repeat(16, 1fr); gap: 10px; }
