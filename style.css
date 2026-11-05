@@ -117,6 +117,7 @@ body { background: linear-gradient(45deg, #222, #444, #888); }
 }
 
 #studio-site-link-btn { text-align: center; }
+#studio-site-link-btn:hover { background: #444; color: #ccc; }
 
 /* Kontainer Tautan */
 .link-grid { display: grid; grid-template-columns: repeat(16, 1fr); gap: 10px; }
