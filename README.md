@@ -9,4 +9,4 @@
 <img src="https://img.shields.io/badge/logo-javascript-blue?logo=javascript" />
 
 ## Active Here
-![https://img.sheilds.io/badge/FahYurRas-FF0000?for-the-badge?logo=youtube?logoColor=white](https://www.youtube.com/@FahYurRas)
+[![https://img.sheilds.io/badge/FahYurRas-FF0000?style=for-the-badge?logo=youtube&logoColor=white](https://www.youtube.com/@FahYurRas)]
