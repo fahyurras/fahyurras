@@ -1,3 +1,9 @@
 ## 👋 Hi, I'm FahYurRas!
 
-• I'm currently working on... JavaScript
+<div align="center">
+**Coffee Farmer & Developer from Lampung, Indonesia**
+
+</div>
+
+## Language
+<img src="https://img.shields.io/badge/logo-javascript-blue?logo=javascript" />
