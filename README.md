@@ -18,7 +18,7 @@ I am *developer & coffee farmer* from Lampung, Indonesia.I love making websites,
 * **Origin:** Lampung, Indonesia.
 * **Hobi:** Coding.
 
-### Connect With Me
+### 🔌 Connect With Me
 [![YouTube](https://img.shields.io/badge/YouTube-FF2D2D?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@FahYurRas)
 
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=cyan)](https://www.tiktok.com/@fahyurras6)
