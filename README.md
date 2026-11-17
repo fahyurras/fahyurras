@@ -13,10 +13,14 @@ I am *developer & coffee farmer* from Lampung, Indonesia.I love making websites,
   <img src="https://img.shields.io/badge/Spck_Editor-000000?style=for-the-badge&logo=code&logoColor=white" alt="Spck Editor" />
 </p>
 
+---
+
 ### ☕ About Me
 * **Objective:** Become a web, app & game developer.
 * **Origin:** Lampung, Indonesia.
 * **Hobi:** Coding.
+
+---
 
 ### 🔌 Connect With Me
 [![YouTube](https://img.shields.io/badge/YouTube-FF2D2D?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@FahYurRas)
@@ -30,3 +34,5 @@ I am *developer & coffee farmer* from Lampung, Indonesia.I love making websites,
 [![X/Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/FahYurRas18)
 
 [![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@fahyurras)
+
+---
