@@ -10,4 +10,4 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge?logo=javascript&logoColor=323330" />
 
 ### Connect with me
-![https://www.youtube.com/@FahYurRas](https://img.sheilds.io/badge/YouTube-FF2D2D?style=for-the-page?logo=youtube&logoColor=FFFFFF)
+[![https://www.youtube.com/@FahYurRas](https://img.sheilds.io/badge/YouTube-FF2D2D?style=for-the-page?logo=youtube&logoColor=FFFFFF)]
