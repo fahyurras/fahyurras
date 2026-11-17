@@ -14,6 +14,6 @@ I am *developer & coffee farmer* from Lampung, Indonesia.I love making websites,
 </p>
 
 ### ☕ About Me
-**Objective:** Become a web, app & game developer.
-**Origin:** Lampung, Indonesia.
-**Hobi:** Coding.
+* **Objective:** Become a web, app & game developer.
+* **Origin:** Lampung, Indonesia.
+* **Hobi:** Coding.
