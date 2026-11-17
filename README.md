@@ -6,6 +6,6 @@
 
 ## Skills
 ### Language
-<img src="https://img.sheilds.io/badge/HTML5-HTML-E34C26?style=for-the-badge?logo=html5&logoColor=FFFFFF" />
+<img src="https://img.sheilds.io/badge/HTML-E34C26?style=for-the-badge?logo=html5&logoColor=FFFFFF" />
 
 ## Connect with me
