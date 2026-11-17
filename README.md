@@ -1,7 +1,7 @@
 # 👋 Hi, I'm FahYurRas!
 
 <div align="center">
-**Coffee Farmer & Developer from Lampung, Indonesia**
+**Developer & Coffee Farmer from Lampung, Indonesia**
 </div>
 
 ### Language
