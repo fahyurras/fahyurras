@@ -17,3 +17,18 @@ I am *developer & coffee farmer* from Lampung, Indonesia.I love making websites,
 * **Objective:** Become a web, app & game developer.
 * **Origin:** Lampung, Indonesia.
 * **Hobi:** Coding.
+
+### Connect With Me
+[![YouTube](https://img.shields.io/badge/YouTube-FF2D2D?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@FahYurRas)
+
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=cyan)](https://www.tiktok.com/@fahyurras6)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/fahyurras)
+
+[![Facebook](https://img.shields.io/badge/Facebook-007AFF?style=for-the-badge&logo=facebook&logoColor=white)](https://www.youtube.com/@FahYurRas)
+
+[![X/Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/FahYurRas18)
+
+[![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@fahyurras)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fahyurras)
