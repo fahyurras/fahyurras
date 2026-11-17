@@ -5,8 +5,6 @@
 </div>
 
 ### Language
-<span style="background: #e34c26; color: white; padding: 5px;">HTML</span>
-<span style="background: #264de4; color: white; padding: 5px;">CSS</span>
-<span style="background: #f7df1e; color: #323330; padding: 5px;">JavaScript</span>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge?logo=html5&logoColor=FFFFFF" />
 
 ### Connect with me
