@@ -4,9 +4,8 @@
 **Developer & Coffee Farmer from Lampung, Indonesia**
 </div>
 
-### Skills
-[![Programming Language](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+## Skills
+### Language
+<img src="https://img.sheilds.io/badge/HTML5-HTML-E34C26?style=for-the-badge?logo=html5&logoColor=FFFFFF" />
 
-### Connect with me
-[![https://www.youtube.com/@FahYurRas](https://skillicons.dev/icons?i=youtube)](https://www.youtube.com/@FahYurRas)
-[![https://www.tiktok.com/@fahyurras6](https://skillicons.dev/icons?i=tiktok)](https://www.tiktok.com/@fahyurras6)
+## Connect with me
