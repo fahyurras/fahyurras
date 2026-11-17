@@ -29,7 +29,7 @@ I am *developer & coffee farmer* from Lampung, Indonesia.I love making websites,
 
 [![Instagram](https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/fahyurras)
 
-[![Facebook](https://img.shields.io/badge/Facebook-007AFF?style=for-the-badge&logo=facebook&logoColor=white)](https://www.youtube.com/@FahYurRas)
+[![Facebook](https://img.shields.io/badge/Facebook-007AFF?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/fahyurras12)
 
 [![X/Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/FahYurRas18)
 
