@@ -9,11 +9,6 @@ function typingEffect() {
   } else { document.getElementById('cursor').style.display = 'none'; }
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-  if (document.getElementById('year')) document.getElementById('year').textContent = new Date().getFullYear();
-  typingEffect();
-});
-
 if (document.querySelector('.dark-toggle')) {
   document.querySelector('.dark-toggle').addEventListener('change', function() {
     if (this.checked) {
@@ -23,3 +18,8 @@ if (document.querySelector('.dark-toggle')) {
     }
   });
 }
+
+window.addEventListener('DOMContentLoaded', function() {
+  if (document.getElementById('year')) document.getElementById('year').textContent = new Date().getFullYear();
+  typingEffect();
+});

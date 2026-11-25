@@ -24,9 +24,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 
-<body>
+<body style="background: linear-gradient(45deg, #222, #444, #888);">
   
-  <main class="wrapper">
+  <main class="wrapper" style="width: 100%; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; align-items: stretch;">
     <section id="about-container">
       <div style="display: flex; justify-content: center; align-items: center;">
         <div class="profile-img">
@@ -34,28 +34,28 @@
         </div>
       </div>
       <h2 class="about-name">FahYurRas</h2>
-      <p class="about-description"><span id="typing-text"></span> <span id="cursor">|</span></p>
+      <p class="about-description"><span id="typing-text"></span> <span id="cursor" style="font-weight: bold; color: #0086F9; animation: 1s blink infinite;">|</span></p>
       <a class="contact-btn" href="mailto:fahyurras@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Hubungi Saya">Hubungi Saya</a>
     </section>
     <section id="info-container">
       <h2 class="info-container-title">Informasi</h2>
-      <div class="info-row">
+      <div class="info-row" style="display: flex; justify-content: space-between; align-items: center; margin: 2.5px 0;">
         <span>Nama Asli</span>
         <span>Fahreza Yurian Rastafara</span>
       </div>
-      <div class="info-row">
+      <div class="info-row" style="display: flex; justify-content: space-between; align-items: center; margin: 2.5px 0;">
         <span>Nama Panggilan</span>
         <span>Ejak</span>
       </div>
-      <div class="info-row">
+      <div class="info-row" style="display: flex; justify-content: space-between; align-items: center; margin: 2.5px 0;">
         <span>Pekerjaan</span>
         <span>Pengembang & Petani Kopi</span>
       </div>
-      <div class="info-row">
+      <div class="info-row" style="display: flex; justify-content: space-between; align-items: center; margin: 2.5px 0;">
         <span>Tanggal Lahir</span>
         <span>6 Juli 2012</span>
       </div>
-      <div class="info-row">
+      <div class="info-row" style="display: flex; justify-content: space-between; align-items: center; margin: 2.5px 0;">
         <span>Tempat Tinggal</span>
         <span>Lampung, Indonesia</span>
       </div>
@@ -66,49 +66,41 @@
     </section>
     <section id="studio-container">
       <h2 class="studio-container-title">Studio</h2>
-      <div class="studio-item-container">
+      <div class="studio-item-container" style="display: flex; flex-direction: column; gap: 5px;">
         <div style="display: flex; justify-content: center; align-items: center;">
           <div class="studio-logo-img">
             <img src="studiologo.jpg" alt="Studio Logo" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;">
           </div>
         </div>
-        <h4 class="studio-name">Di mana studio itu berada?</h4>
+        <h4 class="studio-name" style="font-size: 1.15rem; font-weight: bold; color: white; text-align: center;">Di mana studio itu berada?</h4>
         <p class="studio-description">Where Is The Studio adalah studio saya yang berfokus pada pembuatan aplikasi dan game.</p>
-        <a class="link-btn" id="studio-site-link-btn" href="https://whereisthestudios.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="My Studio Site">Kunjungi Situs</a>
+        <a class="link-btn" style="text-align: center;" id="studio-site-link-btn" href="https://whereisthestudios.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="My Studio Site">Kunjungi Situs</a>
       </div>
     </section>
     <section id="link-container">
       <h2 class="link-container-title">Tautan</h2>
-      <div class="link-grid">
-        <a class="link-btn" id="link-youtube" href="https://www.youtube.com/@FahYurRas" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-        <a class="link-btn" id="link-tiktok" href="https://www.tiktok.com/@fahyurras6" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-          <i class="fa-brands fa-tiktok"></i>
-        </a>
-        <a class="link-btn" id="link-instagram" href="https://www.instagram.com/fahyurras" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a class="link-btn" id="link-facebook" href="https://www.facebook.com/fahyurras12" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-        <a class="link-btn" id="link-x" href="https://x.com/FahYurRas18" target="_blank" rel="noopener noreferrer" aria-label="X/Twitter">
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
-        <a class="link-btn" id="link-threads" href="https://www.threads.net/@fahyurras" target="_blank" rel="noopener noreferrer" aria-label="Threads">
-          <i class="fa-brands fa-threads"></i>
-        </a>
-        <a class="link-btn" id="link-github" href="https://github.com/fahyurras" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
+      <div class="link-grid" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px;">
+        <span class="link-btn" id="link-youtube" onclick="window.open('https://www.youtube.com/@FahYurRas')"><i class="fa-brands fa-youtube"></i></span>
+        
+        <span class="link-btn" id="link-tiktok" onclick="window.open('https://www.tiktok.com/@fahyurras6')"><i class="fa-brands fa-tiktok"></i></span>
+        
+        <span class="link-btn" id="link-instagram" onclick="window.open('https://www.instagram.com/fahyurras')"><i class="fa-brands fa-instagram"></i></span>
+        
+        <span class="link-btn" id="link-facebook" onclick="window.open('https://www.facebook.com/fahyurras12')"><i class="fa-brands fa-facebook"></i></span>
+        
+        <span class="link-btn" id="link-x" onclick="window.open('https://x.com/@fahyurras6')"><i class="fa-brands fa-x-twitter"></i></span>
+        
+        <span class="link-btn" id="link-threads" onclick="window.open('https://www.threads.net/@fahyurras')"><i class="fa-brands fa-threads"></i></span>
+        
+        <span class="link-btn" id="link-github" onclick="window.open('https://www.github.com/fahyurras')"><i class="fa-brands fa-github"></i></span>
       </div>
     </section>
     <section id="credit-bar">
-      <div class="dark-toggle-container">
+      <div class="dark-toggle-container" style="color: white; font-size: 1.02rem; font-weight: 500;">
         <label class="dark-toggle-label">Mode Gelap</label>
         <input type="checkbox" class="dark-toggle">
       </div>
-      <p class="credit-title">© <span id="year"></span> FahYurRas</p>
+      <p class="credit-title" style="color: white; font-size: 1.1rem; font-weight: bold;">© <span id="year"></span> FahYurRas</p>
     </section>
   </main>
   
